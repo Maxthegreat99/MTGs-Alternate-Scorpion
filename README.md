@@ -6,6 +6,7 @@ Max at it again replacing vomit attacks ingame, this mod replaces the current vo
 ![SCORPION_PISS!?!??!!?!](https://github.com/user-attachments/assets/956abc5b-6db4-4ba8-9dc4-8db99df2cc4c)
 
 # How to install 
+- Clear your game's cache in game settings and uncheck both checkboxes there
 - backup your assets folder by creating an archive for it
 - download the .zip
 - drag the .zip to your game's folder, the one with the .exe (accessible via steam's browse local files option)
