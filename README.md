@@ -15,7 +15,7 @@ Max at it again replacing vomit attacks ingame, this mod replaces the current vo
 
 # Credits
 - Programming by yours truly 
-- [Onilink](http://ic.onidev.fr/en/index.html) who helped me with a lot of the feedback on the projectile
+- [Onilink](http://ic.onidev.fr/en/index.html) who helped me with a lot of the feedback on the projectile (he also kindof made the game)
 - spaghettiinabucket who made the projectile, feedback and iterations of the sprites. (":yum:" - Spag after making the sprite of a highly venmous projectile that could kill you)
 - Redigit or whatever sound designer there is at Relogic tbh (we used the death sound effect of vile spit for the sound of the projectile)
 
