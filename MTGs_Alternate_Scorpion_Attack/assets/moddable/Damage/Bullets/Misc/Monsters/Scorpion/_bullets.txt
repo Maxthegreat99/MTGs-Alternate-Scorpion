@@ -1,0 +1,39 @@
+{
+
+Bullet:
+{
+  
+  poisson:
+  {
+    "poisson.png" 18 9 0.0
+    "poisson.png" 18 9 0.0
+    
+    37 168 61
+    // damages
+    1 0 0 0  0 0 0 0 0 0  0 0 0  {}
+    // damage blocks
+    0
+    // sound
+    void
+
+    grow_at_start
+    //damage_blocks_at_death 50
+    //hit_force keen 2 1
+    
+    //gfx_step pc_part_em_mother_zombi_spit
+  }
+  
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

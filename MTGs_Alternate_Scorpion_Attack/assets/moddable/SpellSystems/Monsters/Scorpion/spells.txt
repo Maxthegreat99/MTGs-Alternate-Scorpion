@@ -1,0 +1,21 @@
+
+{
+
+SpellSystem:
+{
+  
+  scorpion_proj:
+  {
+    load_json "scorpion_proj.json"
+    damage_multiplier 4 1
+  }
+  
+  scorpion_proj_big:
+  {
+    load_json "scorpion_proj_big.json"
+    damage_multiplier 4 1
+  }
+
+}
+
+}

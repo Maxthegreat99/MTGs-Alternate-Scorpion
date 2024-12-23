@@ -1,0 +1,19 @@
+{
+
+ParticleEmitter:
+{
+  part_scorpion_proj:
+  {
+    box -1 -1 1 1
+    load_json "scorpion_proj.json"
+  }
+  
+  part_scorpion_proj2:
+  {
+    box -1 -1 1 1
+    load_json "scorpion_proj2.json"
+  }
+
+}
+
+}

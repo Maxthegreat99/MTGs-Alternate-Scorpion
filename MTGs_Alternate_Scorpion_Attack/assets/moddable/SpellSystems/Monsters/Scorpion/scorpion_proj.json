@@ -1,0 +1,57 @@
+{
+    "bursts": [
+    [
+      {
+        "index":0,
+        "time":0,
+        "accuracy":0.8
+      }
+    ]
+    ],
+  
+  
+  "spells":[
+    {
+      "spell": {
+        "type":"bullet",
+        "data": {
+          "ind":"poisson",
+          "scale":1.5,
+          "damages":1.0,
+          "range":450,
+          "motion": {
+            "type":"gravity",
+            "data": {
+              "speed":8,
+              "gravity":0.18
+            }
+          },
+          "iterations":1,
+          "gfx_step":"part_scorpion_proj",
+          "gfx_death":"part_scorpion_proj2"
+        }
+      },
+      
+      "spawn": {
+        "type":"relative",
+        "angle":0
+      },
+      
+      "burst": [
+        {
+          "commands": [
+            "point"
+          ]
+        }
+      ],
+      
+      "effects": [
+        {
+          "type":"poisoned",
+          "proba":1,
+          "time":15
+        }
+        ]
+    }
+  ]
+}

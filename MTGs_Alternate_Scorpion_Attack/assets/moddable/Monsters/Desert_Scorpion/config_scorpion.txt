@@ -1,0 +1,89 @@
+
+{
+
+Monster:
+{
+  
+
+  pc_monster_scorpion:
+  {
+    "Scorpion"
+    60 70 50 // base stats
+    35
+    3
+    3.0 // mass
+    1 // have recoil? 1:true  0:false
+
+    0 -0.2 0 0  0 -0.5 0 0 0 0
+
+    0
+    70 // taux de capture
+    55 // xp
+    12
+
+    drops:
+    {
+      0.02 pc_armor_scorpion_mask 1 1
+      0.10 pc_drop_string         1 1
+      0.20 pc_drop_scorpion_tail  1 1
+    }
+    damages:
+    {
+      {
+      //pierce blunt cunt explose // fire ice rock thunder light shadow
+      0.75 0.00 0 0  0 0 0 0 0 0  2 2 0.3  { 0.25 Poisoned 1 15 } // Atk CAC
+      0.60 0.45 0 0  0 0 0 0 0 0  2 2 0.3  { 1.0 Poisoned 1 15 } // Atk Distance
+      }
+    }
+    suffix:
+    {
+    }
+    suffix_hurt:
+    {
+    }
+    suffix_attack:
+    {
+    }
+    
+    dark_souls 3
+    seals {
+      pc_triggerable_monster_seal1
+      pc_triggerable_monster_seal2
+      pc_triggerable_monster_seal3
+      pc_triggerable_monster_seal4
+      pc_triggerable_monster_seal5
+    }
+    
+    loots {
+      // rarity range
+      all {
+        // probability, min, max, table_index
+        0.0010 1 1 pc_chestdrop_runes1
+        0.0300 1 1 pc_chestdrop_gems1
+        0.0040 1 1 pc_chestdrop_swords1
+        0.0080 1 1 pc_chestdrop_swords2
+        0.0009 1 1 pc_chestdrop_swords3
+      }
+    }
+    
+    allow_giant
+    
+    enable_cache "_cache/atlas"
+    palette pc_palette_monster_scorpion
+    
+    preference_table pc_preference_table_scorpion
+    egg pc_drop_egg_scorpion
+    size 2 2
+    use_lua ground_monster "scorpion.lua"
+    //sprites monster_zombie "Sprites/sprites.json"
+    //sounds  monster_zombie "Sounds/sounds.json"
+    sprites monster_scorpion "Sprites/sprites.json"
+    sounds  monster_scorpion "Sounds/sounds.json"
+    thumbnail thumbnail.png
+  }
+  
+  
+}
+
+}
+

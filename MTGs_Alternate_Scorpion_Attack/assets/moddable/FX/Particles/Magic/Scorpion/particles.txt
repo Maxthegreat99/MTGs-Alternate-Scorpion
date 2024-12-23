@@ -1,0 +1,23 @@
+{
+
+Particles:
+{
+  
+  particles_scorpion_proj2:
+  {
+    "poison2.png"
+    ps_shadowed
+    attribs "scorpion_proj2.json"
+  }
+    
+  particles_scorpion_proj:
+  {
+    "poisson_3.png"
+    ps_shadowed
+    ps_physical
+    attribs "scorpion_proj.json"
+  }
+
+}
+
+}

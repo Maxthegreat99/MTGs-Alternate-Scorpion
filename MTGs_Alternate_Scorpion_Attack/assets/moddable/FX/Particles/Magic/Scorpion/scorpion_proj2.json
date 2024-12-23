@@ -1,0 +1,29 @@
+{
+
+"life_min":75,
+"life_max":100,
+"dir_min":20,
+"dir_max":160,
+"angle_min":-20,
+"angle_max":200,
+"speed_min":0.5,
+"speed_max":1.0,
+"size_incr": -0.004,
+"size_min":0.4,
+"size_max":0.60,
+"gravity_amount":0.005,
+"gravity_dir":90,
+"color_ramp":{
+    "colors":[
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        [255, 255, 255],
+        [0, 0, 0, 0]
+    ]
+}
+}
+

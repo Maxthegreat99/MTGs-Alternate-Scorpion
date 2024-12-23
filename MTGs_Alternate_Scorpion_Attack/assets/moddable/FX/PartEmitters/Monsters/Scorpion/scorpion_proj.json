@@ -1,0 +1,11 @@
+
+[
+{
+"ind":"particles_scorpion_proj",
+"spawn_kind":"rect",
+"orientation":"default",
+"count_min":-5,
+"count_max":6
+}
+]
+

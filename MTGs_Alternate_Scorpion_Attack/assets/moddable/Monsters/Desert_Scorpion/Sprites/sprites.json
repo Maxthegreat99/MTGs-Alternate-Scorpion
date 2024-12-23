@@ -1,0 +1,20 @@
+{
+"crop":true,
+"sprites":
+[
+{"name":"idle", "file":"idle_4.png", "offset":"31 bottom"},
+{"name":"move", "file":"walk_6.png", "offset":"34 bottom"},
+{"name":"attack", "file":"newattack_8.png", "offset":"40 bottom"},
+{"name":"attack2", "file":"attack2_9.png", "offset":"34 bottom"},
+{"name":"spit", "file":"spit_10.png", "offset":"-10 26"},
+{"name":"die", "file":"die_10.png", "offset":"35 bottom"},
+
+{"name":"spawn", "file":"spawn_9.png", "offset":"45 bottom"},
+{"name":"dig", "file":"dig_11.png", "offset":"32 bottom"},
+
+{"name":"hit", "file":"hit_3.png", "offset":"33 bottom"},
+{"name":"fall", "file":"fall_11.png", "offset":"52 68"},
+{"name":"getup", "file":"getup_9.png", "offset":"53 bottom"}
+]
+}
+
