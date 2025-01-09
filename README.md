@@ -11,6 +11,7 @@ Max at it again replacing vomit attacks ingame, this mod replaces the current vo
 - download the .zip
 - drag the .zip to your game's folder, the one with the .exe (accessible via steam's browse local files option)
 - extract the file
+- make sure to move the file's asset folder to the same directory where your game's asset folder is located
 - overwrite any files it asks to overwrite
 - enjoy scorpions who learnt to make usage of their dart's venom
 
